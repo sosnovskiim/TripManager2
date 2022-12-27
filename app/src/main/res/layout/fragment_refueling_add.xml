@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/refuelingOdometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/odometer"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/refuelingLitersFilled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/liters_filled"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/refuelingPricePerLiter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/price_per_liter"
+            android:inputType="numberDecimal" />
+
+        <CheckBox
+            android:id="@+id/refuelingIsToFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_full_capitalize" />
+
+        <Button
+            android:id="@+id/refuelingAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/refueling_save" />
+
+    </LinearLayout>
+
+</layout>

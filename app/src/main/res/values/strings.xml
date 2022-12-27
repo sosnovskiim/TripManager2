@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TripManager 2</string>
+
+    <!--Buttons-->
+    <string name="trip_add">Добавить поездку</string>
+    <string name="trip_save">Сохранить поездку</string>
+    <string name="trip_delete">Удалить поездку</string>
+    <string name="refueling_add">Добавить заправку</string>
+    <string name="refueling_save">Сохранить заправку</string>
+    <string name="refueling_delete">Удалить заправку</string>
+
+    <!--Dialogs-->
+    <string name="trip_delete_dialog_title">Удаление поездки</string>
+    <string name="trip_delete_dialog_message">Вы уверены, что хотите удалить</string>
+    <string name="trip_delete_dialog_positive">Да</string>
+    <string name="trip_delete_dialog_negative">Нет</string>
+    <string name="refueling_delete_dialog_title">Удаление заправки</string>
+    <string name="refueling_delete_dialog_message">Вы уверены, что хотите удалить</string>
+    <string name="refueling_delete_dialog_positive">Да</string>
+    <string name="refueling_delete_dialog_negative">Нет</string>
+
+    <!--Toasts-->
+    <string name="trip_name_empty_toast">Введите название поездки</string>
+    <string name="trip_added_toast">Поездка добавлена</string>
+    <string name="trip_deleted_toast">Поездка удалена</string>
+    <string name="refueling_odometer_less_than_last_toast">Одометр не может быть меньше предыдущего</string>
+    <string name="refueling_odometer_empty_toast">Введите показание одометра</string>
+    <string name="refueling_liters_filled_empty_toast">Введите сколько литров залито</string>
+    <string name="refueling_added_toast">Заправка добавлена</string>
+    <string name="refueling_deleted_toast">Заправка удалена</string>
+
+    <!--Info-->
+    <string name="odometer">Одометр</string>
+    <string name="liters_filled">Литров залито</string>
+    <string name="price_per_liter">Цена за литр</string>
+    <string name="refueling">Заправка</string>
+    <string name="is_to_full_capitalize">До полного/Не до полного</string>
+    <string name="is_to_full_lower">до полного/не до полного</string>
+    <string name="to_full_capitalize">До полного</string>
+    <string name="to_full_lower">до полного</string>
+    <string name="not_to_full_capitalize">Не до полного</string>
+    <string name="not_to_full_lower">не до полного</string>
+    <string name="averageFuelConsumption">Средний расход топлива</string>
+</resources>
